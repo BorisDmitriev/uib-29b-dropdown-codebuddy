@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jasmine": "^4.0.2",
+    "jest": "^26.6.3",
+    "jest-puppeteer": "^6.0.3"
+  },
+  "autograding": {
+    "setup": "cd ./node_modules/puppeteer && npm run install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DigitalCareerInstitute/UIB-boxmodel-coolDropdown",
+    "id": 481158903
+  }
+}
